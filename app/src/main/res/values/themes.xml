@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.BarberShop" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/midnightblue</item>
+        <item name="colorPrimaryVariant">@color/midnightblue</item>
+        <item name="colorPrimaryDark">@color/midnightblue</item> <!-- Adicione essa linha -->
+    </style>
+
+</resources>
