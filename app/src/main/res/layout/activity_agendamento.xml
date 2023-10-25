@@ -41,9 +41,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:calendarViewShown="false"
-        android:datePickerMode="spinner"
-
-        />
+        android:datePickerMode="spinner" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -67,7 +65,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:timePickerMode="spinner"
-        />
+        android:timePickerMode="spinner" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btAgendado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AGENDAR"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/alizarin"
+            android:padding="15dp"
+            android:drawableEnd="@drawable/baseline_arrow_right_alt_24"
+            android:layout_marginEnd="13dp" />
+
+        <Button
+            android:id="@+id/btVerAgendamentos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Verificar"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/alizarin"
+            android:padding="15dp"
+            android:layout_marginStart="13dp"
+            android:onClick="onClickVerAgendamentos" />
+            />
+
+    </LinearLayout>
 </LinearLayout>
